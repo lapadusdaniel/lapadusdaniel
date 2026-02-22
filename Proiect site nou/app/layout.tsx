@@ -9,6 +9,7 @@ import { siteConfig } from '@/data/site';
 
 const serif = Cormorant_Garamond({
   subsets: ['latin', 'latin-ext'],
+  weight: ['400', '500', '600', '700'],
   variable: '--font-serif',
   display: 'swap'
 });
